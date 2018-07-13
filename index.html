@@ -2,9 +2,124 @@
 <html>
     <head>
          <title>Danish Ali Aamir | Portfolio</title>
+        <style>
+             .main-container{
+                width: 600px;
+                background-color:darkgrey;
+                margin: 0 auto;
 
+            }
+            .header{
+                height: 100px;
+                width: 600px;
+                background-color:lavenderblush;
+            }
+           
+            .headerlogo{
+                width: 50px;
+                height: 50px;
+                margin-top: 20px;
+                padding-left: 10px;
+                
+            }
+             .headerh1{
+                margin-left: 60px;
+                padding: 10px;
+                height: 100%;
+            } 
+            
+            .body-content{
+                height: 400px;
+                width: 100%;
+                text-align: center;
+                background-color: blue;
+                display: flex;
+            }
+            .left-navigation{
+                height: 400px;
+                width: 150px;
+                background-color: aqua;
+                background-image: linear-gradient(slategray,cyan); 
+
+            }
+            .main-content{
+                height: 400px;
+                width: 450px;
+                background-color: blue;
+                /* background-image: linear-gradient(rgb(231, 233, 236),cyan); */
+            }
+             .navigationul{
+                list-style: none;
+            }
+            .navigationul li{
+                margin-bottom: 10px;
+            }
+            .navigationul li a{
+                color:steelblue;
+            } 
+            .inputbox{
+                width: 30%;
+                float: right;
+                text-align: center;
+                max-width: 170px;
+                padding-top: 40px;
+            }
+           .mainContent {
+               width: 450px;
+               height: 400px;
+               background-color: rgb(110, 226, 43);
+               text-align: center;
+           }
+           .mainContent img{
+               margin-top: 10px;
+               height: 200px;
+               width: 300px;
+           }
+           .footer{
+                height:100%;
+                width:600px;
+                background-color:cadetblue;   
+            }
+        </style>
     </head>
     <body>
-        <h1>Helllo Worl!!!</h1>
+        <div class="main-container">
+            <div class="header">
+                <div style="width: 20%; float: left;">
+                        <img class="headerlogo" src="images/cc.png" alt="Google">
+                </div>
+                <div style="width: 50%; float: left; height: 100px;">
+                        <h1 class="headerh1">My heading</h1>
+                </div>
+                <div class="inputbox">
+                        <input class="headerinput" type="text" name="search" placeholder="email" />
+                </div>
+            </div>
+            <div class="body-content">
+                    <div class="left-navigation">
+                            <h2><i>Links</i></h2>
+                            <ul class="navigationul">
+                                    
+                                    <li style="height: 30px;"><a href="https://www.google.com/" target="blank">GOOGLE</a></li>
+                                    <li style="height: 30px;"><a href="https://www.facebook.com/" target="blank">FACEBOOK</a></li>
+                                    <li style="height: 30px;"><a href="https://www.w3schools.com/" target="blank">W3SCHOOL</a></li>
+                                    <li style="height: 30px;"><a href="https://www.gmail.com/" target="blank">GMAIL</a></li>
+                                    <li style="height: 30px;"><a href="https://www.yahoomail.com/" target="blank">YAHOO</a></li>
+                                    <li style="height: 30px;"><a href="https://www.dailymotion.com/" target="blank">DAILYMOTION</a></li>
+                                    <li style="height: 30px;"><a href="https://www.youtube.com/" target="blank">YOUTUBE</a></li>
+                                </ul>     
+                         </div>
+                         <div class="mainContent">
+                            <img src="images/beautiful-sunset-images-196063.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                        </div>    
+            </div>
+             <div class="footer" style="display:flex;">
+                <a href="https://www.youtube.com/" target="blank" style="margin: 50px">YOUTUBE</a>
+                <a href="https://www.google.com/" target="blank" style="margin: 50px">GOOGLE</a>
+                <a href="https://www.gmail.com/" target="blank" style="margin: 50px">GMAIL</a>
+            </div> 
+        </div>
     </body>
 </html>
